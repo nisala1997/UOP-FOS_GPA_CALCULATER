@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=Waving&color=auto&animation=fadeIn&height=160&section=header&text=GPA%20CALCULATER&fontSize=60)
-# calculate-gpa
+# calculate-GPA
 
-A simple notebook to calculate the GPA using a csv file with the results. This implementation is based on the GPA calculation guidelines of the `Faculty of Science, University of Peradeniya (FoS, UoP).`
+A simple notebook to calculate the GPA using a CSV file with the results. This implementation is based on the GPA calculation guidelines of the `Faculty of Science, University of Peradeniya (FoS, UoP).`
 
 # Prerequisites
 
@@ -13,15 +13,15 @@ pip install pandas
 
 # Usage
 
-The results are read from the `grades.csv` file. It is the comma separated file. Sample structure of the file is as follows:
+The results are read from the `grades.csv` file. It is a comma-separated file. The sample structure of the file is as follows:
 
 ```
-code,course,year,sem,credits,grade
+code,course,year,sem,credits,grade, <--Dont remove this part you can edit next line
 CH101,Principles of Chemistry I,2017/2018,I,3,A,
 CH102,Principles of Chemistry II,2017/2018,II,3,A,
 ```
 
-Run all cells to see the outputs. This notebook provides the following outputs:
+Run all cells to see the outputs. This notebook provides the following outcomes:
 
 - Overall GPA
 - Credits per level
@@ -31,6 +31,6 @@ Run all cells to see the outputs. This notebook provides the following outputs:
 
 # Limitations
 
-Current implementation only covers calculating the GPA for a 4 year degree based on FoS, UoP's guidelines. Cannot be used in the casual calculation of GPA.
+The current implementation only covers calculating the GPA for a 4-year degree based on FoS, UoP's guidelines. It cannot be used in the simple calculation of GPA.
 
 ![footer](https://capsule-render.vercel.app/api?type=Waving&color=auto&animation=fadeIn&height=160&section=footer)
