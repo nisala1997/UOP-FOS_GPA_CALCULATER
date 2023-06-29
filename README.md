@@ -1,4 +1,4 @@
-
+![header](https://capsule-render.vercel.app/api?type=Waving&color=auto&animation=fadeIn&height=160&section=header&text=GPA%20CALCULATER&fontSize=60)
 # calculate-gpa
 
 A simple notebook to calculate the GPA using a csv file with the results. This implementation is based on the GPA calculation guidelines of the `Faculty of Science, University of Peradeniya (FoS, UoP).`
@@ -32,3 +32,5 @@ Run all cells to see the outputs. This notebook provides the following outputs:
 # Limitations
 
 Current implementation only covers calculating the GPA for a 4 year degree based on FoS, UoP's guidelines. Cannot be used in the casual calculation of GPA.
+
+![footer](https://capsule-render.vercel.app/api?type=Waving&color=auto&animation=fadeIn&height=160&section=footer)
